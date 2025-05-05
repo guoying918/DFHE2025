@@ -43,7 +43,6 @@ TEST_LSAMPLE_NUM_PER_CLASS = args.test_lsample_num_per_class # the number of lab
 EPISODE = args.episode
 LEARNING_RATE = args.learning_rate
 
-
 current_date = datetime.date.today().strftime("%Y%m%d")
 RESULT_DIR ='./' + current_date +'_result_multipatch/' + DATASET + '/'
 if not os.path.isdir(RESULT_DIR):
