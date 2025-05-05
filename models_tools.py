@@ -66,3 +66,4 @@ def estimate_cov(examples, rowvar=False, inplace=False):
         examples = examples - torch.mean(examples, dim=1, keepdim=True)
     examples_t = examples.t()
     return factor * examples.matmul(examples_t).squeeze()
+    
