@@ -8,7 +8,6 @@ import hdf5storage
 from  sklearn import preprocessing
 import scipy.io as sio
 
-
 def zeroPadding_3D(old_matrix, pad_length, pad_depth = 0):
     new_matrix = np.lib.pad(old_matrix, ((pad_length, pad_length), (pad_length, pad_length), (pad_depth, pad_depth)), 'constant', constant_values=0)
     return new_matrix
