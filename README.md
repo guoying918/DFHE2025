@@ -3,7 +3,7 @@
 Code for the paper: [Boosting Few-Shot Hyperspectral Image Classification Through Dynamic Fusion and Hierarchical Enhancement](https://ieeexplore.ieee.org/document/11194743).
 
 <p align='center'>
-  <img src='Figures/DFHE.png' width="800px">
+  <img src='Figures/overview.png' width="800px">
 </p>
 
 ## Abstract:
